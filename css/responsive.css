@@ -1,0 +1,101 @@
+/* ７８０px以下の時に適用 */
+@media(max-width:780px) {
+    /* 全体のスタイル */
+    .container {
+        width: 100%;
+    }
+
+    /* headerのスタイル */
+    header {
+        padding-top: 20px;
+    }
+
+    .header-left h1 {
+        font-size: 4rem;
+        padding-left: 30px;
+    }
+
+    .header-right {
+        padding: 10px 20px 0 0;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+     .table {
+        padding-top: 30px;
+        font-size: 2rem;
+     }
+
+      .table a:hover {
+          text-decoration: underline;      
+      }
+
+    .table td {
+        border: solid 2px black;
+        text-align: center;
+        padding: 10px 0;
+        width: 50%;
+    } 
+
+    .table a { 
+        /* クリック範囲を広げるため */
+        display: block;
+    } 
+
+    .table a :hover {
+         text-decoration: underline;
+    }
+
+     .contents {
+         display: flex;
+         flex-direction: column;
+     }
+
+     /* about-wrapperのスタイル */
+     .contents {
+         text-align: center;
+     }
+     
+     .myphoto img {
+         width: 90%;
+         text-align: center;
+     }
+
+     .about-text {
+         padding-left: 0;
+         padding-bottom: 20px;
+         width: 90%;
+         margin: 0 auto;     
+     }
+
+     /* skill-wrapperのスタイル */
+     .skill-text p {
+         text-align: 0;
+         text-align: center;
+         font-size: 2rem;
+     }
+
+     .skill-content {
+         padding-top: 50px;
+     }
+
+     /* work-wrapperのスタイル */
+     .work-contants img {
+         width: 80%;
+         display: flex;
+         display: block;
+         margin: 0 auto;
+     }  
+}
+
+/* ７８０px以上の時に適用 */
+@media(min-width:780px) {
+     .table {
+         display: none;
+     }
+}
+
+
+ 

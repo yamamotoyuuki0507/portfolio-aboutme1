@@ -1,0 +1,188 @@
+/* -------------
+全体のスタイル
+------------- */
+/* 10px = 1rem */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* ----------------
+headerのスタイル
+---------------- */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+header {
+    padding-top: 100px;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-left h1 {
+    font-size: 5rem;
+}
+
+.header-right {
+    /* 右端に寄せる */
+    margin-left: auto;   
+}
+
+.header-right .fab{
+    opacity: 0.6;
+}
+
+.header-right .fab:hover {
+    opacity: 1;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    background-color: tomato;
+    padding-top: 50px;
+}
+
+.nav-list li {
+    font-size: 2.3rem;
+    padding: 0 20px;
+}
+
+.nav-list li:hover {
+    text-decoration: underline;
+}
+
+/* -----------------------
+.about-wrapperのスタイル
+----------------------- */
+.main-logo {
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 70px 0 40px 0;
+}
+
+.items {
+    display: flex;
+}
+
+.myphoto img {
+    width: 300px;
+    height: 100%;
+}
+
+.about-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.career {
+    padding-top: 20px;
+}
+
+/* ----------------------
+.skill-wrapperのスタイル
+---------------------- */
+
+.skill-content {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.skill-content h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.skill-content i {
+    padding: 10px 0;
+}
+
+.skill-wrapper {
+    text-align: center;
+}
+
+.contents{
+    display: flex; 
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.skill-text {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skill-text h1 {
+    font-size: 5rem;
+}
+
+/* ---------------------
+work-wrapperのスタイル
+--------------------- */
+.work-wrapper p {
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px 0;
+}
+
+.work-contants img {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.work-contants img:hover {
+    opacity: 0.5;
+}
+
+.work-info {
+    padding: 0 20px;
+    background-color: chartreuse;
+}
+
+/* -------------------------
+.contact-wrapperのスタイル
+------------------------- */
+.contact-wrapper p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact-menu {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-menu .fab {
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+
+.contact-menu .fab:hover {
+    opacity: 1;
+}
+
+/* ----------------
+footerのスタイル
+---------------- */
+footer  .nav-list li{
+    text-align: center;  
+}
+
+.contents {
+    background-color: skyblue;
+}
+
